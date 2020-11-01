@@ -18,6 +18,10 @@ Location of restaurant JSON: https://storage.googleapis.com/nandos-engineering-p
 
 # Implementation
 
+| iOS                   | Android                      |
+| --------------------- | ---------------------------- |
+| ![iOS](/docs/ios.gif) | ![android](docs/android.gif) |
+
 ## Environment 🌳
 
 Set up your machine to run react-native CLI (not expo). See [React Native CLI Quickstart](https://reactnative.dev/docs/environment-setup) for more details.
