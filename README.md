@@ -103,3 +103,4 @@ yarn android
 - Set up Fastlane and Codepush scripts to automate the release process
 - Set up Continuous Integration using Bitrise to improve the release process
 - Add more documentation explaining why certain libraries were used etc
+- Handle errors
