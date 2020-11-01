@@ -20,6 +20,8 @@ export default function Home() {
 
   const flatListData = data?.data.restaurant.items || [];
 
+  const isRefreshing = !!(isLoading && data)
+
   return (
     <Screen>
       <FlatList
@@ -36,7 +38,7 @@ export default function Home() {
         onEndReachedThreshold={0.1}
         refreshControl={
           <RefreshControl
-            refreshing={isLoading}
+            refreshing={isRefreshing}
             onRefresh={refetch}
             tintColor={colors.greys.dark}
           />

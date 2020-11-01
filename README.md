@@ -16,12 +16,6 @@ We’re looking for a production-quality approach to the project structure and c
 
 Location of restaurant JSON: https://storage.googleapis.com/nandos-engineering-public/coding-challenge-rn/restaurantlist.json
 
-## Submission
-
-We love Github, so a link to a repository on your personal Github account is our preferred method of submission. However, you can also submit via a cloud storage method or zip file sent via email.
-
-Please ensure your submission includes instructions for setting up and running your application.
-
 # Implementation
 
 ## Environment 🌳
@@ -104,3 +98,5 @@ yarn android
 - Set up Continuous Integration using Bitrise to improve the release process
 - Add more documentation explaining why certain libraries were used etc
 - Handle errors
+- Improve design
+- Write integration / unit tests using Jest
